@@ -145,9 +145,52 @@ nav{
 
 .lots-of-cards>div{
     background-color: aqua;
-    height: 250px;
-    width: 350px;
+    height: 350px;
+    width: 450px;
     margin: 20px;
     border-radius: 20px;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lots-of-cards>div>img{
+    width: 100%;
+    height: 50%;
+    border-radius: 20px;
+}
+
+.lots-of-cards>div>p{
+    text-align: center;
+}
+
+.cool-section{
+    width: 96vw;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    margin: 2vw;
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+}
+
+.cool-section>div{
+    display: flex;
+    height: 15em;
+    gap: 20px;
+}
+
+.cool-section>div>div>i{
+    font-size: 50px;
+}
+
+.cool-section>div>span{
+    height: 100%;
+    width: 20px;
+    background-color: white;
 }
