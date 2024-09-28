@@ -85,3 +85,69 @@ nav{
     width: 450px;
     background-color: red;
 }
+
+.info-cont{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.basic-info-cont{
+    border-radius: 10px;
+    width: 95%;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.basic-info-cont>p{
+    width: 50%;
+    font-size: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+.basic-info-cards{
+    margin-top: 50px;
+    display: flex;
+}
+
+.basic-info-cards>div{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.basic-info-cards>div>i{
+    font-size: 50px;
+    color: rgb(148, 4, 64);
+}
+
+.basic-info-cards>div>p{
+    text-align: center;
+}
+
+.lots-of-cards{
+    width: 95%;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.lots-of-cards>div{
+    background-color: aqua;
+    height: 250px;
+    width: 350px;
+    margin: 20px;
+    border-radius: 20px;
+    padding: 20px;
+}
