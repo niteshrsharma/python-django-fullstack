@@ -1,1 +1,1 @@
-print(3 * 'un' + 'ium')
+print(5*'ra' + 2*'dhika')

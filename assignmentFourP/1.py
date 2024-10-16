@@ -1,3 +1,6 @@
-the_world_is_flat = True
-if the_world_is_flat:
-    print("Be careful not to fall off!")
+is_prime_minister=True
+
+if is_prime_minister:
+    print("hello sir")
+else:
+    print("you are not prime minister")
